@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class MayoriaDeEdad : MonoBehaviour
 {
-    // Start is called before the first frame update
+   public int edadusuaruio;
     void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    { 
+        if(edadusuaruio >= 18)
+        {
+            Debug.Log("Es mayor de edad");
+        }
+        else
+        {
+            Debug.Log("No es mayor de edad");
+        }
     }
 }
